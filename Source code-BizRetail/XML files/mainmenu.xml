@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back9" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/purchase" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:background="@drawable/rupee" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignLeft="@+id/button4"
+        android:background="@drawable/sales" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/purchase"
+        android:src="@drawable/img1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignRight="@+id/button1"
+        android:background="@drawable/inventory" />
+    
+</RelativeLayout>
